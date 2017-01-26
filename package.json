@@ -1,0 +1,41 @@
+{
+	"name": "crux-core",
+	"version": "0.0.1",
+	"description": "Basic utility that provides simple class wrapper to create web components",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "./node_modules/.bin/webpack --config webpack.config.js",
+		"test": "echo \" Test passed \""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/crux-component/crux-core.git"
+	},
+	"keywords": [
+		"Crux",
+		"Crux-Components",
+		"Web Components",
+		"Custom Elements"
+	],
+	"homepage": "https://github.com/crux-component/crux-core",
+	"authors": [
+		"Muhammed Jasim<jasimea@gmail.com>",
+		"Shankar Veerakandhan"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"incremental-dom": "^0.5.1",
+		"skatejs-web-components": "^5.1.0"
+	},
+	"devDependencies": {
+		"babel-loader": "^6.2.10",
+		"babel-plugin-transform-class-properties": "^6.22.0",
+		"babel-preset-es2015": "^6.22.0",
+		"babel-preset-react": "^6.22.0",
+		"babel-preset-stage-0": "^6.22.0",
+		"babel-plugin-external-helpers": "^6.22.0",
+		"path": "^0.12.7",
+		"raw-loader": "^0.5.1",
+		"webpack": "^1.14.0"
+	}
+}
